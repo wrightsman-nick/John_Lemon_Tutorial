@@ -1,0 +1,78 @@
+-----------------------------------------------------
+-WASD Movement OLD SYSTEM-
+
+void Update()
+{
+	movementX = 0;
+	if (Input.GetKey(KeyCode.A))
+	{
+	
+	}
+
+}
+
+Is the controller connected?
+What happens when it's unplugged, switched, etc
+Multiplayer?
+Controller Remapping
+ReWired plugin
+
+-New Input System-
+
+public void OnMove(InputValue value)
+{
+	Vector2 moveDir = value.Get<Vector2>();
+	movementX = moveDir.x
+}
+
+SendMessage() 
+
+-----------------------------------------------------
+
+Scene Optimization
+Don't have too many things
+Low Poly
+Implement Occlusion Culling
+https://docs.unity3d.com/Manual/OcclusionCulling.html
+Limit Gigantic Textures
+
+-----------------------------------------------------
+
+"Edit" Ingame Files
+Text files
+read that text file, such as on start up
+check for changes
+also useful to store game settings in files
+
+-----------------------------------------------------
+
+Quaternions
+
+How Unity does rotations
+Euler angles
+Fourth Dimensional Construct
+Don't try to do rotations manually
+
+-----------------------------------------------------
+
+ENUMs
+
+Human readable
+
+private enum Theme { Red, Green, Blue, Yellow, Black }
+
+private Theme CurrentTheme = Theme.Blue;
+
+private Dictionary<Theme, string> CategoryTitle = new Dictionary<Theme, string >
+-----------------------------------------------------
+
+Simple Combo:
+Define the combo move in an array
+Check inputs "did they do the thing?"
+If hits end with A, did they hit the previous buttons correctly and at the right time?
+Store the last X inputs
+Every input, check if they have achieved the combo
+Don't do with if statements. Use classes with arrays and times.
+
+Advanced Combo:
+More advanced systems might have times associated with the move, so b must be pressed within a half second of a.

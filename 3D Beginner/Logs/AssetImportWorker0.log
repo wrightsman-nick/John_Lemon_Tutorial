@@ -3098,3 +3098,4 @@ Received Import Request.
 Start importing Assets/Animation/Animation/Spinning.anim using Guid(20b8fc2d9e51ec542b19f0b7f31a22a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64b3747fdd8b30a2bb6c51789ebc029') in 0.025340 seconds 
   Import took 0.029781 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
