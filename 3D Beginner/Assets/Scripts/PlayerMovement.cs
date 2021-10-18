@@ -1,10 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    
+    public TextMeshProUGUI countText;
+    public GameObject collectedObject;
+
+    private int count;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -12,12 +18,19 @@ public class PlayerMovement : MonoBehaviour
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
 
+
     void Start()
     {
         m_Animator = GetComponent<Animator> ();
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_AudioSource = GetComponent<AudioSource>();
+        count = 0;
+        
+        collectedObject.SetActive(false);
+        SetCountText();
+        
     }
+
 
     void FixedUpdate()
     {
@@ -48,9 +61,32 @@ public class PlayerMovement : MonoBehaviour
         m_Rotation = Quaternion.LookRotation (desiredForward);
     }
 
+
     void OnAnimatorMove()
     {
         m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
         m_Rigidbody.MoveRotation (m_Rotation);
+    }
+
+
+    void SetCountText()
+    {
+        countText.text = "Count: " + count.ToString();
+        if (count == 3)
+        {
+            collectedObject.SetActive(true);
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Collectibles"))
+        {
+            other.gameObject.SetActive(false);
+            count = count + 1;
+
+            SetCountText();
+        }
     }
 }
