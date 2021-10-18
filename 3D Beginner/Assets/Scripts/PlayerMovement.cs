@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
     
     public TextMeshProUGUI countText;
+    public TextMeshProUGUI healthText;
     public GameObject collectedObject;
 
     private int count;
+    private int health;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -25,9 +28,11 @@ public class PlayerMovement : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_AudioSource = GetComponent<AudioSource>();
         count = 0;
+        health = 20;
         
         collectedObject.SetActive(false);
         SetCountText();
+        SetHealthText();
         
     }
 
@@ -78,8 +83,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void SetHealthText()
+    {
+        healthText.text = "Health: " + health.ToString();
+        if (health == 0)
+        {
+            SceneManager.LoadScene (1);
+        }
+    }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Collectibles"))
         {
