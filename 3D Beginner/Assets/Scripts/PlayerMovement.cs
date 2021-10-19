@@ -9,17 +9,21 @@ public class PlayerMovement : MonoBehaviour
     public float turnSpeed = 20f;
     
     public TextMeshProUGUI countText;
-    public TextMeshProUGUI healthText;
     public GameObject collectedObject;
+    public GameObject collectOne;
+    public GameObject collectTwo;
+    public GameObject collectThree;
 
     private int count;
-    private int health;
+    private int collectsound;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
     AudioSource m_AudioSource;
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
+
+    bool m_CollectAudioPlayed;
 
 
     void Start()
@@ -28,11 +32,13 @@ public class PlayerMovement : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_AudioSource = GetComponent<AudioSource>();
         count = 0;
-        health = 20;
-        
+        collectsound = 0;
+
+        collectOne.SetActive(false);
+        collectTwo.SetActive(false);
+        collectThree.SetActive(false);
         collectedObject.SetActive(false);
         SetCountText();
-        SetHealthText();
         
     }
 
@@ -83,23 +89,29 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void SetHealthText()
-    {
-        healthText.text = "Health: " + health.ToString();
-        if (health == 0)
-        {
-            SceneManager.LoadScene (1);
-        }
-    }
-
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Collectibles"))
         {
             other.gameObject.SetActive(false);
             count = count + 1;
-
+            collectsound = collectsound + 1;
             SetCountText();
+        }
+
+        if (collectsound == 1)
+        {
+            collectOne.SetActive(true);
+        }
+
+        if (collectsound == 2)
+        {
+            collectTwo.SetActive(true);
+        }
+
+        if (collectsound == 3)
+        {
+            collectThree.SetActive(true);
         }
     }
 }
