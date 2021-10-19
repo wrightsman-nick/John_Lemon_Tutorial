@@ -15,11 +15,11 @@ C:/Users/nickt/Desktop/College/C220/Repositories/John_Lemon_Tutorial/3D Beginner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59400
+54773
 Successfully changed project path to: C:/Users/nickt/Desktop/College/C220/Repositories/John_Lemon_Tutorial/3D Beginner
 C:/Users/nickt/Desktop/College/C220/Repositories/John_Lemon_Tutorial/3D Beginner
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -49,13 +49,13 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.441 seconds
+- Completed reload, in  1.414 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007417 seconds.
+Registered in 0.007041 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
@@ -65,19 +65,19 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
+- Completed reload, in  0.832 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
+Unloading 1973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.0 MB.
+System memory in use after: 165.1 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2388.
-Total: 1.824400 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.510200 ms  DeleteObjects: 0.065600 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 1.736000 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.071100 ms MarkObjects: 1.412900 ms  DeleteObjects: 0.075700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -92,23 +92,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(5203fcd9fd1dcb74393faeddf16e9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(5203fcd9fd1dcb74393faeddf16e9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127abe774d142c8b3ba4eceea92c6b46') in 0.023597 seconds 
-  Import took 0.026474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 505.095700 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(5203fcd9fd1dcb74393faeddf16e9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(5203fcd9fd1dcb74393faeddf16e9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c166590d908d1b25407e0acfb76259f') in 0.002261 seconds 
-  Import took 0.005324 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cd18c3a32e4c804a904965ecf47737') in 0.023315 seconds 
+  Import took 0.025741 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007068 seconds.
+Registered in 0.006559 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
@@ -118,16 +110,121 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.758 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.1 MB.
-System memory in use after: 159.2 MB.
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2391.
-Total: 1.707100 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.430800 ms  DeleteObjects: 0.020700 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 1.619200 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.062100 ms MarkObjects: 1.379900 ms  DeleteObjects: 0.017900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2407.
+Total: 1.631900 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.385200 ms  DeleteObjects: 0.017800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2410.
+Total: 1.725600 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.067700 ms MarkObjects: 1.459300 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.2 MB.
+System memory in use after: 160.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 1.726400 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.071200 ms MarkObjects: 1.461600 ms  DeleteObjects: 0.019900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -142,10 +239,732 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.600795 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(5203fcd9fd1dcb74393faeddf16e9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(5203fcd9fd1dcb74393faeddf16e9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9434558623ea829c39a7983b13d1dce5') in 0.004116 seconds 
-  Import took 0.006267 seconds .
+  Time since last request: 562.810127 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_DeskPreset_05.fbx
+  artifactKey: Guid(4d49607ee73607446906c726f9005b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_DeskPreset_05.fbx using Guid(4d49607ee73607446906c726f9005b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87437ae205000a9dafaaf4c6c26ca35f') in 0.138650 seconds 
+  Import took 0.141345 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_StickyNotesPack_01.fbx
+  artifactKey: Guid(5d53956d26b131b478be4e322844120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_StickyNotesPack_01.fbx using Guid(5d53956d26b131b478be4e322844120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8945d8219c74152bbe1551ae1ebe71') in 0.010781 seconds 
+  Import took 0.013238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_StickyNote_01.fbx
+  artifactKey: Guid(fef2e78bd5ca1e942ad809c2358f2105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_StickyNote_01.fbx using Guid(fef2e78bd5ca1e942ad809c2358f2105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b38bb7f298174837033ab650cbf954b') in 0.010114 seconds 
+  Import took 0.012546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Plant_02.fbx
+  artifactKey: Guid(b6f996d4dc3610a44b0e67f6f800e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Plant_02.fbx using Guid(b6f996d4dc3610a44b0e67f6f800e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6765a9c7c16b1546503cdc97b0257b') in 0.018406 seconds 
+  Import took 0.020873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Mousepad_02.fbx
+  artifactKey: Guid(2de5dbf4bbc063543913591aee7ec9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Mousepad_02.fbx using Guid(2de5dbf4bbc063543913591aee7ec9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9482c256746b480dbd3db503d1578a7') in 0.011172 seconds 
+  Import took 0.013775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_01.fbx
+  artifactKey: Guid(3b429ec56c985f744b4d7bcd4a781e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_01.fbx using Guid(3b429ec56c985f744b4d7bcd4a781e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70738081fdbd3a5645681b15a8ce84ed') in 0.010778 seconds 
+  Import took 0.013227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Pen_02.fbx
+  artifactKey: Guid(672c1b6053f92ad41ab0ac5a88557404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Pen_02.fbx using Guid(672c1b6053f92ad41ab0ac5a88557404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9e8f9e9fea45ab0913c6213d9c2df0') in 0.010192 seconds 
+  Import took 0.012752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_FluorescentLight.fbx
+  artifactKey: Guid(76d166f816b54f844a3767fcb3ecc20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_FluorescentLight.fbx using Guid(76d166f816b54f844a3767fcb3ecc20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234415dc184d77f9931e3daaae7fba0f') in 0.012533 seconds 
+  Import took 0.014937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Shelf_01.fbx
+  artifactKey: Guid(edabdbb96aea9f54a96f2a6484d4263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Shelf_01.fbx using Guid(edabdbb96aea9f54a96f2a6484d4263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60623bb796cbef7fcfd49ac11868e320') in 0.011645 seconds 
+  Import took 0.014096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Notepad_01.fbx
+  artifactKey: Guid(8cc470032e6fea944ad7b1738c84aea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Notepad_01.fbx using Guid(8cc470032e6fea944ad7b1738c84aea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356a6e541df12f224c509f8bb867b431') in 0.009615 seconds 
+  Import took 0.012075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PaperTowelDispenser.fbx
+  artifactKey: Guid(de26c6619d303704cb45ab7500a3899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PaperTowelDispenser.fbx using Guid(de26c6619d303704cb45ab7500a3899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce809de5ac59d99a7390ea2c720ded93') in 0.018507 seconds 
+  Import took 0.021077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Lamp_01.fbx
+  artifactKey: Guid(3246161d31e61544b86498775e52fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Lamp_01.fbx using Guid(3246161d31e61544b86498775e52fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80be6e21a3caf4f51049bb36d19cc6af') in 0.010115 seconds 
+  Import took 0.012714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Papers_04.fbx
+  artifactKey: Guid(3443c235a66f43a4e9843dc8787b052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Papers_04.fbx using Guid(3443c235a66f43a4e9843dc8787b052e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d65a0ada789412e62fd8db6f2f9c3d9') in 0.013412 seconds 
+  Import took 0.015872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Photo_01.fbx
+  artifactKey: Guid(82e34d98eedb65f49b76e38d79b5d6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Photo_01.fbx using Guid(82e34d98eedb65f49b76e38d79b5d6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa4372222a7f502c02a77428a1bd109') in 0.009982 seconds 
+  Import took 0.012378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Papers_02.fbx
+  artifactKey: Guid(7c4cb0d757306b24cb467022eb315f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Papers_02.fbx using Guid(7c4cb0d757306b24cb467022eb315f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0113eaa85a9487f2dd45e2ee43cca2') in 0.012626 seconds 
+  Import took 0.015342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_RubbishBin_02.fbx
+  artifactKey: Guid(9e8688303546ce54cbc25d904def4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_RubbishBin_02.fbx using Guid(9e8688303546ce54cbc25d904def4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f7080744eec6e518600e4246622c64') in 0.009610 seconds 
+  Import took 0.012048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Monitor_01.fbx
+  artifactKey: Guid(917650085fdcf344c86fe6da5ce7e04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Monitor_01.fbx using Guid(917650085fdcf344c86fe6da5ce7e04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d5433afb38529467f0de43e5f1eb8e') in 0.010738 seconds 
+  Import took 0.013173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_FileBox_01.fbx
+  artifactKey: Guid(264480f53637db14595947e842583eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_FileBox_01.fbx using Guid(264480f53637db14595947e842583eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05c2ceb4605809730c6fa656da19eac') in 0.011506 seconds 
+  Import took 0.014034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_OverheadProjector.fbx
+  artifactKey: Guid(e0182ce1551878b41962d8490243cbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_OverheadProjector.fbx using Guid(e0182ce1551878b41962d8490243cbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c9c07d690e69f14bf90c09705ff167') in 0.010534 seconds 
+  Import took 0.012983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PowerOutletMulti.fbx
+  artifactKey: Guid(436f8669fdb2b374ca8e0d9238b666ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PowerOutletMulti.fbx using Guid(436f8669fdb2b374ca8e0d9238b666ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8167c4251a279fde415811acea73f84') in 0.009410 seconds 
+  Import took 0.011909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_FileBox_02.fbx
+  artifactKey: Guid(1fa6940dd013ac14dadaaa2442fd2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_FileBox_02.fbx using Guid(1fa6940dd013ac14dadaaa2442fd2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a3efb85e2432421eb199fd6f60366') in 0.010211 seconds 
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_DeskPreset_06.fbx
+  artifactKey: Guid(7767c06989ce42b48a466becc4bf6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_DeskPreset_06.fbx using Guid(7767c06989ce42b48a466becc4bf6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb61ca864ea8c68778bab4d1fafc27b') in 0.009669 seconds 
+  Import took 0.012196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_StickyNote_03.fbx
+  artifactKey: Guid(017fba09ffaa34d4a836a05f7e3cb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_StickyNote_03.fbx using Guid(017fba09ffaa34d4a836a05f7e3cb7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113f3e01a24dd3787544df48774bfd84') in 0.012586 seconds 
+  Import took 0.015005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Keyboard_02.fbx
+  artifactKey: Guid(2484d2eb357218d4aae722f212320024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Keyboard_02.fbx using Guid(2484d2eb357218d4aae722f212320024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc64fda55f550ca398dec4ced8f87e2') in 0.009852 seconds 
+  Import took 0.012367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Painting_02.fbx
+  artifactKey: Guid(cfd607baed7447f4cba3082a6ca8b626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Painting_02.fbx using Guid(cfd607baed7447f4cba3082a6ca8b626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312244b79ff9197eb18972a4353695d2') in 0.010651 seconds 
+  Import took 0.013377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Lightswitch.fbx
+  artifactKey: Guid(dd1d4825b47951648aa3647cae6e1546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Lightswitch.fbx using Guid(dd1d4825b47951648aa3647cae6e1546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab6db1af66fad75fe68068f44ea1ff') in 0.009582 seconds 
+  Import took 0.011975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_03.fbx
+  artifactKey: Guid(ac75188845ceb6e4091fd356648f2c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_03.fbx using Guid(ac75188845ceb6e4091fd356648f2c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c187733dc460eff1ee0968f404e7b40c') in 0.010515 seconds 
+  Import took 0.012983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_FileCabinet_01.fbx
+  artifactKey: Guid(c5b27f68f8d9941458b6a564cbfa58c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_FileCabinet_01.fbx using Guid(c5b27f68f8d9941458b6a564cbfa58c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e323aaac976fef95f691ad923e63228b') in 0.011461 seconds 
+  Import took 0.013884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Lamp_02.fbx
+  artifactKey: Guid(721b24798cabe814badc8c060ec127dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Lamp_02.fbx using Guid(721b24798cabe814badc8c060ec127dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a57ab2c8d916eaa5d67a1905e4ee6a') in 0.009913 seconds 
+  Import took 0.012387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Rug_01.fbx
+  artifactKey: Guid(cd651858426f3c54882de1868f683afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Rug_01.fbx using Guid(cd651858426f3c54882de1868f683afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1035c8ec3c751dc7e24272364e2da0') in 0.010018 seconds 
+  Import took 0.012529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Door.fbx
+  artifactKey: Guid(eac93289912a7f5478983fd753083a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Door.fbx using Guid(eac93289912a7f5478983fd753083a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a405ed0618b6ce2421907682a6393b') in 0.009864 seconds 
+  Import took 0.012421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_02.fbx
+  artifactKey: Guid(b36647b7f89a38a4b8bce072f2dde4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_02.fbx using Guid(b36647b7f89a38a4b8bce072f2dde4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61b91b42f45643a51e4c36715e79fad') in 0.008908 seconds 
+  Import took 0.011368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Plant_01.fbx
+  artifactKey: Guid(936caee3a20f4664d8dbde7ef17da52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Plant_01.fbx using Guid(936caee3a20f4664d8dbde7ef17da52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc402784305399177a288e8593fec74') in 0.012862 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_RubixCube.fbx
+  artifactKey: Guid(d09c3d4051dece14d97a7a1722021c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_RubixCube.fbx using Guid(d09c3d4051dece14d97a7a1722021c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b2961fdaf07d3c01bd928e496da6dd') in 0.009526 seconds 
+  Import took 0.011916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Plant_03.fbx
+  artifactKey: Guid(1b7151dca53b27f4eac15803211fc7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Plant_03.fbx using Guid(1b7151dca53b27f4eac15803211fc7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f4e0627c2be164db8ff557afbaa236') in 0.010425 seconds 
+  Import took 0.012906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Photo_02.fbx
+  artifactKey: Guid(88c323f9b9bef5143b64f161213ba804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Photo_02.fbx using Guid(88c323f9b9bef5143b64f161213ba804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ee52bb0fd2c99522c08a62845c38b3') in 0.011447 seconds 
+  Import took 0.013942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Pinboard_01.fbx
+  artifactKey: Guid(db69c882772818140bbd3101f5089adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Pinboard_01.fbx using Guid(db69c882772818140bbd3101f5089adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2192539edcd9af587ca84dcaac64dd3') in 0.009857 seconds 
+  Import took 0.012498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_SoapDispenser.fbx
+  artifactKey: Guid(155591b69c6469648819164a36149e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_SoapDispenser.fbx using Guid(155591b69c6469648819164a36149e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a6a7b4179ffa4aa0ca65fb66249189') in 0.008888 seconds 
+  Import took 0.011376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_SellotapeDispenser_01.fbx
+  artifactKey: Guid(8220c410918c2e7428145069db6371a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_SellotapeDispenser_01.fbx using Guid(8220c410918c2e7428145069db6371a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2810c05fd7925f5baa31c582dc430c') in 0.010092 seconds 
+  Import took 0.012632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_SellotapeDispenser_02.fbx
+  artifactKey: Guid(251bc7b41ca8c044798ade6749b356ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_SellotapeDispenser_02.fbx using Guid(251bc7b41ca8c044798ade6749b356ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9f341d652805e8023cb815064ed662') in 0.009109 seconds 
+  Import took 0.011604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Pen_01.fbx
+  artifactKey: Guid(8dc6b28205893b842ad94cb3ff510ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Pen_01.fbx using Guid(8dc6b28205893b842ad94cb3ff510ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe398c2a3d48f669cb78c9a0f0043da') in 0.012334 seconds 
+  Import took 0.014857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Pinboard_02.fbx
+  artifactKey: Guid(581fa0e9bcb967d4b8dfa3084dd9326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Pinboard_02.fbx using Guid(581fa0e9bcb967d4b8dfa3084dd9326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55425496ed0dc9c2953cfda64456f64') in 0.009494 seconds 
+  Import took 0.011890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Monitor_01PostItNotes.fbx
+  artifactKey: Guid(e173a749c38fb084db95b85a294db1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Monitor_01PostItNotes.fbx using Guid(e173a749c38fb084db95b85a294db1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c09393da7d97c6c532b2f1b354bd45d') in 0.010532 seconds 
+  Import took 0.012977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Rug_02.fbx
+  artifactKey: Guid(3624480b5b999574a838bb2a41d0f1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Rug_02.fbx using Guid(3624480b5b999574a838bb2a41d0f1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470ff82e2340da4cfd7021a427a2453e') in 0.011066 seconds 
+  Import took 0.013787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Lockers_01.fbx
+  artifactKey: Guid(83fb4f0499bba3448863bdc2c73a860b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Lockers_01.fbx using Guid(83fb4f0499bba3448863bdc2c73a860b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb07a312f01b46d0829681738e1e0ef6') in 0.009698 seconds 
+  Import took 0.012305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Plant_05.fbx
+  artifactKey: Guid(1523ee628a88a6646a63423d968911ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Plant_05.fbx using Guid(1523ee628a88a6646a63423d968911ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c515551fd7ce8cbac15f547ebd070da') in 0.009825 seconds 
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Keyboard_01.fbx
+  artifactKey: Guid(85c98d4856ee3e6429b5ff0e3e62f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Keyboard_01.fbx using Guid(85c98d4856ee3e6429b5ff0e3e62f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a10e290874cb4480efb616dbef7c25') in 0.009449 seconds 
+  Import took 0.011965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Mirror.fbx
+  artifactKey: Guid(596efff1441fd31489adf8dfc7122bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Mirror.fbx using Guid(596efff1441fd31489adf8dfc7122bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbb0c4a84d96c5972e7ad720431f06c') in 0.009501 seconds 
+  Import took 0.012011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Monitor_02.fbx
+  artifactKey: Guid(f1625c90320f8a54a972ff6c07e03be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Monitor_02.fbx using Guid(f1625c90320f8a54a972ff6c07e03be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ba3cc827521591e139abacdf88688f') in 0.011507 seconds 
+  Import took 0.014014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_ExitSign.fbx
+  artifactKey: Guid(f4c3ce43f1529cc4aa02402181f6f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_ExitSign.fbx using Guid(f4c3ce43f1529cc4aa02402181f6f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bbcdf4b5ef39db44280f694637aace') in 0.009376 seconds 
+  Import took 0.011811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Shelf_03.fbx
+  artifactKey: Guid(209b0be477c07cc48899b1ce0b1377f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Shelf_03.fbx using Guid(209b0be477c07cc48899b1ce0b1377f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c6b4d45387f3c1c0bcbc94fa0da25c') in 0.010770 seconds 
+  Import took 0.013194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floor_01.fbx
+  artifactKey: Guid(855c7d5576893bd499944936bec73afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floor_01.fbx using Guid(855c7d5576893bd499944936bec73afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917261a3e1cf80db3d7e01138f87a5d1') in 0.010408 seconds 
+  Import took 0.013050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floor_02.fbx
+  artifactKey: Guid(0d40931c6ac87634ab5b4b885ed13e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floor_02.fbx using Guid(0d40931c6ac87634ab5b4b885ed13e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33673a22a1fdd4cfc5bd8e79b602ac6d') in 0.009291 seconds 
+  Import took 0.011799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_StickyNote_02.fbx
+  artifactKey: Guid(40d83d75f876d034ab958ed2995c2524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_StickyNote_02.fbx using Guid(40d83d75f876d034ab958ed2995c2524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb49555748984ab829a3af14072f067f') in 0.009607 seconds 
+  Import took 0.012050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Painting_01.fbx
+  artifactKey: Guid(1156e6c74b2cec04d8baf7b442ae0b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Painting_01.fbx using Guid(1156e6c74b2cec04d8baf7b442ae0b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b798ee0c888dd8f092601fe811326a83') in 0.010817 seconds 
+  Import took 0.013299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Photocopier.fbx
+  artifactKey: Guid(a5f1322971f939a499ad56e4afa8901a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Photocopier.fbx using Guid(a5f1322971f939a499ad56e4afa8901a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce42707024dc37acf4e800efaae8450d') in 0.010607 seconds 
+  Import took 0.013102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Shelf_02.fbx
+  artifactKey: Guid(5fe77adc3ad47f74ea47e17b4ef7f0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Shelf_02.fbx using Guid(5fe77adc3ad47f74ea47e17b4ef7f0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22670c750ca013fc4c006448a12c52de') in 0.009867 seconds 
+  Import took 0.012485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Papers_03.fbx
+  artifactKey: Guid(eab796d679b890843a5b8f4c3331c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Papers_03.fbx using Guid(eab796d679b890843a5b8f4c3331c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682bd03081c5bc7a54576c469176dcdd') in 0.009468 seconds 
+  Import took 0.012039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Pen_03.fbx
+  artifactKey: Guid(e4c429a8deffbf24687a10af8842f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Pen_03.fbx using Guid(e4c429a8deffbf24687a10af8842f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c026739f37b18c8c6f59d38b495564') in 0.010943 seconds 
+  Import took 0.013446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Monitor_03.fbx
+  artifactKey: Guid(e0ecde9e5d2d50144b266d3e3f6d2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Monitor_03.fbx using Guid(e0ecde9e5d2d50144b266d3e3f6d2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336639523420e10cb53886e9f30e668c') in 0.009495 seconds 
+  Import took 0.011928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Mousepad_01.fbx
+  artifactKey: Guid(bbf734453f228304c824fef81b9ccf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Mousepad_01.fbx using Guid(bbf734453f228304c824fef81b9ccf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2460cef8d2187a83e546c6020ed6f7') in 0.010161 seconds 
+  Import took 0.012720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Elevator_Button.fbx
+  artifactKey: Guid(29524b1cd13534a4e9a210d087c19ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Elevator_Button.fbx using Guid(29524b1cd13534a4e9a210d087c19ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b5d009cfb0cf9e19e9690e4a78da15') in 0.010339 seconds 
+  Import took 0.012889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Papers_01.fbx
+  artifactKey: Guid(03346bcff6027484a969b1cddb331488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Papers_01.fbx using Guid(03346bcff6027484a969b1cddb331488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4ea16924cdc2966a64191f44a0a976') in 0.009520 seconds 
+  Import took 0.011934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_01.fbx
+  artifactKey: Guid(3931ed3761a4edf4c892267c2560e49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_01.fbx using Guid(3931ed3761a4edf4c892267c2560e49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637cd1bc57c9f2b65ef76b3a471b6699') in 0.009501 seconds 
+  Import took 0.012042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_03.fbx
+  artifactKey: Guid(dbe242874f7fae342ab57660df785ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_03.fbx using Guid(dbe242874f7fae342ab57660df785ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58fe338073a7a2ae55f99bef283a51') in 0.010027 seconds 
+  Import took 0.012489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floor_Carpet_Grey.fbx
+  artifactKey: Guid(ad6f66669dc33ba48844a242dcc4ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floor_Carpet_Grey.fbx using Guid(ad6f66669dc33ba48844a242dcc4ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc109a464d10621a137de6386efaa01') in 0.009376 seconds 
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Notepad_02.fbx
+  artifactKey: Guid(643dae5b859d670439f973a2a31f309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Notepad_02.fbx using Guid(643dae5b859d670439f973a2a31f309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11282072735a228ed09436d37470438b') in 0.013891 seconds 
+  Import took 0.016402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Magazines.fbx
+  artifactKey: Guid(6a6238a87405a6441a7d06e77c9e8451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Magazines.fbx using Guid(6a6238a87405a6441a7d06e77c9e8451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1894a2c46248e21753ccded2a6785a7d') in 0.012031 seconds 
+  Import took 0.014512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_HandDryer.fbx
+  artifactKey: Guid(725e473ba0b73674c9ea2968d5346752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_HandDryer.fbx using Guid(725e473ba0b73674c9ea2968d5346752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bcbd21e5aef3fec0b016704624e600') in 0.025919 seconds 
+  Import took 0.029219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Plant_04.fbx
+  artifactKey: Guid(86398ee1f744ebd46b5e67477945bb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Plant_04.fbx using Guid(86398ee1f744ebd46b5e67477945bb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c4d4fde84f1df55a301fb2e04c0f0d') in 0.013676 seconds 
+  Import took 0.016982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_04.fbx
+  artifactKey: Guid(c703d638b5e2fe948ba2601c6bc33066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_04.fbx using Guid(c703d638b5e2fe948ba2601c6bc33066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282feb6d6ca1ef39cc9a464e1e5c8173') in 0.016275 seconds 
+  Import took 0.019532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Scanner.fbx
+  artifactKey: Guid(785c55006c8523f4c85e6fa314ee700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Scanner.fbx using Guid(785c55006c8523f4c85e6fa314ee700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308446019c3edf5ba34088ea38cac7aa') in 0.011878 seconds 
+  Import took 0.015095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Printer.fbx
+  artifactKey: Guid(efab1337e9189ef4da9f2533a359b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Printer.fbx using Guid(efab1337e9189ef4da9f2533a359b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8c6c623624dcc7d30ac816db6957e7') in 0.012995 seconds 
+  Import took 0.015596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PowerOutlet.fbx
+  artifactKey: Guid(1f97ddf8b93cefa48b03c8d4698798dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PowerOutlet.fbx using Guid(1f97ddf8b93cefa48b03c8d4698798dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967279caf1464a296bed5ac6d97283b8') in 0.010981 seconds 
+  Import took 0.013431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_FireExtinguisher.fbx
+  artifactKey: Guid(438fcd196e41c28458729fe1939e7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_FireExtinguisher.fbx using Guid(438fcd196e41c28458729fe1939e7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a66e8dd79ae2d203a14f35d78229f8') in 0.009856 seconds 
+  Import took 0.012463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_RubbishBin_01.fbx
+  artifactKey: Guid(59b700a451f12cd4e9071e3da36e8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_RubbishBin_01.fbx using Guid(59b700a451f12cd4e9071e3da36e8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11ab4bf464e8256f961b202ae9f75fc') in 0.012701 seconds 
+  Import took 0.015338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_FileCabinet_02.fbx
+  artifactKey: Guid(f9c9c187bc0283c4cb8b1712db517f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_FileCabinet_02.fbx using Guid(f9c9c187bc0283c4cb8b1712db517f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f49acf6ce321ea0c5bbfd149196ad4') in 0.010148 seconds 
+  Import took 0.012629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Laptop.fbx
+  artifactKey: Guid(9d944cf137c230f4ab6f17abed16413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Laptop.fbx using Guid(9d944cf137c230f4ab6f17abed16413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c53908c31b526277769f14f7ea3723') in 0.010877 seconds 
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Stapler.fbx
+  artifactKey: Guid(bca9d2b86c9695a40ae24af8c1e0e744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Stapler.fbx using Guid(bca9d2b86c9695a40ae24af8c1e0e744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe77aac8498ecd311086ea692666aff') in 0.009422 seconds 
+  Import took 0.012160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Drain.fbx
+  artifactKey: Guid(020a693ad67714f4782a580305ffd4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Drain.fbx using Guid(020a693ad67714f4782a580305ffd4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e3881f0eba2cd8b2239d67bf59bc5') in 0.009555 seconds 
+  Import took 0.013022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_04.fbx
+  artifactKey: Guid(c39385e567d763743acd2d92010d7955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Floppydisk_04.fbx using Guid(c39385e567d763743acd2d92010d7955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e219fc8584932bc724e1f3765368e5') in 0.010882 seconds 
+  Import took 0.014218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Lockers_02.fbx
+  artifactKey: Guid(75c78828b4bcae944a8ce542b61784a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Lockers_02.fbx using Guid(75c78828b4bcae944a8ce542b61784a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68928d4c43b57763bfb5b1aa24de26ef') in 0.010193 seconds 
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_JanitorCart.fbx
+  artifactKey: Guid(936fcbabd6a91f74a94436870b710a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_JanitorCart.fbx using Guid(936fcbabd6a91f74a94436870b710a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dae208eea1b36309e20bace0610005') in 0.014895 seconds 
+  Import took 0.017520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_Sinks.fbx
+  artifactKey: Guid(9837b4b367fb3f540992a6051ebf4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_Sinks.fbx using Guid(9837b4b367fb3f540992a6051ebf4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61d2fc39b0a4302daef64eba827e765') in 0.011849 seconds 
+  Import took 0.014602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_02.fbx
+  artifactKey: Guid(6f99be829bcd0b44a8b5c39e8dbdab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Models/SO_PaperTray_02.fbx using Guid(6f99be829bcd0b44a8b5c39e8dbdab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4846c7219cf02c0dfe75f3216bd515ea') in 0.011453 seconds 
+  Import took 0.015057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.348830 seconds.
+  path: Assets/SimpleOfficeInteriors/_Materials/SimpleOfficeInteriors.mat
+  artifactKey: Guid(0fa29dbb24d023c4f815d0a00e41584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleOfficeInteriors/_Materials/SimpleOfficeInteriors.mat using Guid(0fa29dbb24d023c4f815d0a00e41584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5031738680d002f21ad62153f7cb1c') in 0.025975 seconds 
+  Import took 0.028678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.008225 seconds.
+  path: Assets/Animation/Animation
+  artifactKey: Guid(16c12986779f71343a6e6759d132b35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation using Guid(16c12986779f71343a6e6759d132b35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0855df43b2a6b466047a4b4cb3967930') in 0.002374 seconds 
+  Import took 0.004893 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.8 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 1.910000 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.070500 ms MarkObjects: 1.631100 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

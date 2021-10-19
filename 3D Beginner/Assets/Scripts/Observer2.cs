@@ -6,17 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Observer2 : MonoBehaviour
 {
-    private int health;
-
     public Transform player;
-    public TextMeshProUGUI healthText;
+    public Health playerHealth;
 
     bool m_IsPlayerInRange;
 
     void Start ()
     {
-        health = 1000;
-        SetHealthText();
+
     }
 
 
@@ -48,21 +45,9 @@ public class Observer2 : MonoBehaviour
             {
                 if (raycastHit.collider.transform == player)
                 {
-                    health = health - 1;
-                    SetHealthText();
+                    playerHealth.HealthSub();
                 }
             }
-        }
-    }
-
-      void SetHealthText()
-    {
-        healthText.text = "Health: " + health.ToString();
-        if (health == 0)
-        {
-            SceneManager.LoadScene (1);
-            health = 1000;
-            SetHealthText();
         }
     }
 }

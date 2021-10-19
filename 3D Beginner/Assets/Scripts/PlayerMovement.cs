@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
-    
+
     public TextMeshProUGUI countText;
     public GameObject collectedObject;
     public GameObject collectOne;
@@ -29,8 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        m_Animator = GetComponent<Animator> ();
-        m_Rigidbody = GetComponent<Rigidbody> ();
+        m_Animator = GetComponent<Animator>();
+        m_Rigidbody = GetComponent<Rigidbody>();
         m_AudioSource = GetComponent<AudioSource>();
         count = 0;
         collectsound = 0;
@@ -41,24 +41,24 @@ public class PlayerMovement : MonoBehaviour
         collectedObject.SetActive(false);
         gameEnding.SetActive(false);
         SetCountText();
-        
+
     }
 
 
     void FixedUpdate()
     {
-        float horizontal = Input.GetAxis ("Horizontal");
-        float vertical = Input.GetAxis ("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
         m_Movement.Set(horizontal, 0f, vertical);
-        m_Movement.Normalize ();
+        m_Movement.Normalize();
 
-        bool hasHorizontalInput = !Mathf.Approximately (horizontal, 0f);
-        bool hasVerticalInput = !Mathf.Approximately (vertical, 0f);
+        bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
+        bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         m_Animator.SetBool("IsWalking", isWalking);
 
-        if(isWalking)
+        if (isWalking)
         {
             if (!m_AudioSource.isPlaying)
             {
@@ -67,18 +67,18 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            m_AudioSource.Stop ();
+            m_AudioSource.Stop();
         }
 
-        Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
-        m_Rotation = Quaternion.LookRotation (desiredForward);
+        Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
+        m_Rotation = Quaternion.LookRotation(desiredForward);
     }
 
 
     void OnAnimatorMove()
     {
-        m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
-        m_Rigidbody.MoveRotation (m_Rotation);
+        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude * 2);
+        m_Rigidbody.MoveRotation(m_Rotation);
     }
 
 
@@ -91,9 +91,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Collectibles"))
+        if (other.gameObject.CompareTag("Collectibles"))
         {
             other.gameObject.SetActive(false);
             count = count + 1;
