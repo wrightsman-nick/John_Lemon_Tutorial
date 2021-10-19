@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject collectOne;
     public GameObject collectTwo;
     public GameObject collectThree;
+    public GameObject gameEnding;
 
     private int count;
     private int collectsound;
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         collectTwo.SetActive(false);
         collectThree.SetActive(false);
         collectedObject.SetActive(false);
+        gameEnding.SetActive(false);
         SetCountText();
         
     }
@@ -112,6 +114,7 @@ public class PlayerMovement : MonoBehaviour
         if (collectsound == 3)
         {
             collectThree.SetActive(true);
+            gameEnding.SetActive(true);
         }
     }
 }
