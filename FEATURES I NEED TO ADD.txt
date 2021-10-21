@@ -1,0 +1,5 @@
+- Add an objective on the UI so the player knows that they have to collect the files. COMPLETE
+
+- Add colliders to the objects in the office. COMPLETE
+
+- perhaps add music now that a lot of it is done smoother.

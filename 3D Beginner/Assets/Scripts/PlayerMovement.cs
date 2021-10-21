@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject collectOne;
     public GameObject collectTwo;
     public GameObject collectThree;
+    public GameObject objectiveOne;
+    public GameObject objectiveTwo;
     public GameObject gameEnding;
 
     private int count;
@@ -39,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
         collectTwo.SetActive(false);
         collectThree.SetActive(false);
         collectedObject.SetActive(false);
+        objectiveOne.SetActive(true);
+        objectiveTwo.SetActive(false);
         gameEnding.SetActive(false);
         SetCountText();
 
@@ -88,6 +92,8 @@ public class PlayerMovement : MonoBehaviour
         if (count == 3)
         {
             collectedObject.SetActive(true);
+            objectiveOne.SetActive(false);
+            objectiveTwo.SetActive(true);
         }
     }
 
