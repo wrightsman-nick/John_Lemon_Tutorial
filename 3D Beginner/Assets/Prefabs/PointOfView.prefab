@@ -43,7 +43,7 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.7
-  m_Height: 2
+  m_Height: 3
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0.95}
 --- !u!114 &2775451225689641103

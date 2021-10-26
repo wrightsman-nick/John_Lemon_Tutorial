@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject objectiveOne;
     public GameObject objectiveTwo;
     public GameObject gameEnding;
+    public GameObject introText;
 
     private int count;
     private int collectsound;
@@ -44,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         objectiveOne.SetActive(true);
         objectiveTwo.SetActive(false);
         gameEnding.SetActive(false);
+        introText.SetActive(true);
         SetCountText();
 
     }
@@ -78,6 +80,11 @@ public class PlayerMovement : MonoBehaviour
         m_Rotation = Quaternion.LookRotation(desiredForward);
     }
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Submit"))
+            introText.SetActive(false);
+    }
 
     void OnAnimatorMove()
     {
